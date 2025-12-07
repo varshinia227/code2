@@ -1,0 +1,8 @@
+publicclasspalindrome{
+  publicstatic void main(string[]args){
+  string str="madam";
+string reversed=newstringbuilder(str).reverse().tostring();
+system.out.println(str.equals(reversed));
+}
+}
+  
